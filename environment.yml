@@ -1,0 +1,25 @@
+name: imputacion-valores-faltantes
+
+# conda env create --file environment.yml
+# mamba env create --file environment.yml
+
+channels:
+  - anaconda
+  - conda-forge
+  - defaults
+dependencies:
+  - black
+  - invoke
+  - jupyter
+  - jupyterlab
+  - matplotlib
+  - nbdime
+  - numpy
+  - pandas
+  - pip
+  - plotly
+  - pyjanitor
+  - pyprojroot
+  - python=3.10
+  - seaborn
+  
